@@ -24,7 +24,7 @@ void DemoView::editCancel()
 void DemoView::editApply()
 {
     if (keyboard.targets(editable1)) editable1.toUTF8(text1);
-    else if (keyboard.targets(editable2)) editable1.toUTF8(text2);
+    else if (keyboard.targets(editable2)) editable2.toUTF8(text2);
 }
 
 void DemoView::keyPressed()
